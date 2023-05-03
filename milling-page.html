@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>СпецпромКонструкция</title>
+  <link rel="preload" href="fonts/HelveticaNeueCyr-Roman.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/HelveticaNeueCyr-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0.31/dist/fancybox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0.31/dist/fancybox.umd.min.js"></script>
+  <script defer src="libs/inputmask.min.js"></script>
+  <script defer src="libs/just-validate3.3.3.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="wrapper">
+    <!-- Прелоадер -->
+<div class="preloader">
+  <img class="preloader__image" src="img/svg/preloader-logo.svg" alt="СпецпромКонструкция">
+  <div class="loaderi">loading</div>
+</div>
+<header class="header header-page" id="header">
+  <div class="container">
+    <div class="header__top">
+      <a href="index.html" class="logo">
+        <img src="img/svg/logo.svg" alt="СпецпромКонструкция">
+      </a>
+      <div class="header__navigation">
+        <nav class="nav" title="Главное меню">
+          <ul class="nav__list list-reset">
+            <li class="nav__item">
+              <a href="company.html" class="nav__link">О Компании</a>
+              <span class="arrow"></span>
+              <ul class="sub-nav list-reset">
+                <li class="sub-nav__item"><a href="documentation.html" class="sub-nav__link">Лицензии и сертификаты</a></li>
+                <li class="sub-nav__item"><a href="vacancies.html" class="sub-nav__link">Вакансии</a></li>
+                <li class="sub-nav__item"><a href="gallery-page.html" class="sub-nav__link">Галерея</a></li>
+              </ul>
+            </li>
+            <li class="nav__item">
+              <a href="services-page.html" class="nav__link">Услуги</a>
+              <span class="arrow"></span>
+              <ul class="sub-nav list-reset">
+                <li class="sub-nav__item"><a href="turning-page.html" class="sub-nav__link">Токарная обработка</a></li>
+                <li class="sub-nav__item"><a href="milling-page.html" class="sub-nav__link">Фрезерная обработка</a></li>
+                <li class="sub-nav__item"><a href="plzamennaya-page.html" class="sub-nav__link">Плазменная резка металла</a></li>
+                <!-- <li class="sub-nav__item"><a href="#" class="sub-nav__link">Газовая резка металла</a></li>
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Гибка листового металла</a></li>
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Термообработка(закалка в масло,воду)</a></li>
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Ренгенографический контррль</a></li>
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Ультразвуковой контроль</a></li>
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Металлоконструкции</a></li>
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Разработка конструкторской документации</a>
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Резка круга и поковок</a></li> -->
+                </li>
+              </ul>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Продукция</a>
+              <span class="arrow"></span>
+              <ul class="sub-nav list-reset">
+                <li class="sub-nav__item"><a href="valves-page.html" class="sub-nav__link">Задвижки</a></li>
+                <li class="sub-nav__item"><a href="valve-page.html" class="sub-nav__link">Клапаны</a></li>
+                <li class="sub-nav__item"><a href="gate-page.html" class="sub-nav__link">Затворы</a></li>
+              </ul>
+            </li>
+            <li class="nav__item">
+              <a href="lrk-page.html" class="nav__link">Лаборатории</a>
+              <!-- <span class="arrow"></span>
+              <ul class="sub-nav list-reset">
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Лаборатория неразрушающего контроля</a></li>
+                <li class="sub-nav__item"><a href="lrk-page.html" class="sub-nav__link">Лаборатория разрушающего контроля</a></li>
+              </ul> -->
+            </li>
+            <li class="nav__item"><a href="contacts.html" class="nav__link">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__contacts">
+        <a href="tel:+73439663098" class="header__contacts_phone">7 (3439) 66-30-98</a>
+        <a href="mailto:info@spczavod.ru" class="header__contacts_email">info@spczavod.ru</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="company page-top" id="contacts">
+        <div class="container">
+          <h1 class="page-title">
+            Фрезерная обработка
+          </h1>
+          <ul class="page-list list-reset">
+            <li class="page-list__item">
+              <a href="index.html" class="page-list__link">Главная</a>
+            </li>
+            <li class="page-list__item">
+              <span class="page-list__item_dash">—</span>
+            </li>
+            <li class="page-list__item">
+              <a href="services-page.html" class="page-list__link">Услуги</a>
+            </li>
+            <li class="page-list__item">
+              <span class="page-list__item_dash">—</span>
+            </li>
+            <li class="page-list__item">
+              <span class="page-list__end">Фрезерная обработка</span>
+            </li>
+          </ul>
+          <div class="description">
+            <div class="description-wrapper">
+              <img class="description__img" src="img/description.webp" />
+              <div class="description__content">
+                <p>
+                  Компания ООО «СпецпромКонструкция» предлагает услуги по фрезерной обработке металлов и сплавов. Производственные мощности нашей компании позволяют обрабатывать детали средних и крупных партий со сложной геометрией, высокими требованиями к точности.
+                </p>
+                <button class="description__btn btn">Заказать услугу</button>
+
+  <div class="wrapper-modal">
+    <div class="overlay-modal" id="overlay-modal"></div>
+    <div class="form-modal">
+      <form action="#" class="form form-services" method="POST" enctype="multipart/form-data">
+      <!-- <form action="#" class="form form-services js-form"> -->
+        <img src="img/form-icon.png" class="form-img" alt="">
+        <h3 class="form__title">
+          Оставьте заявку
+        </h3>
+        <label class="form__label">
+          <input type="text" name="Имя" class="input-name input-reset form__input" placeholder="ФИО">
+        </label>
+        <label class="form__label">
+          <input type="email" class="input-mail input-reset form__input" placeholder="Email" name="email">
+        </label>
+        <label class="form__label">
+          <input type="tel" class="input-tel input-reset form__input" placeholder="Телефон" name="tel">
+        </label>
+        <input class="input" type="file" name="file[]" multiple id="myfile">
+        <span class="upload-text" id="upload-text"></span>
+        <label class="form__label">
+          <textarea rows="5" cols="10" class="form-contact__area" placeholder="Сообщение" name="text"></textarea>
+        </label>
+        <!-- <label class="custom-checkbox">
+          <input type="checkbox" class="custom-checkbox__field">
+          <span class="custom-checkbox__content">С политикой конфиденциальности согласен</span>
+        </label> -->
+        <button class="btn-reset form__btn btn">Отправить</button>
+      </form>
+    </div>
+  </div>
+
+              </div>
+            </div>
+            <div class="block">
+              <p class="block__content">
+                Фрезерная обработка экономит время изготовления заказа и сырье. Значит, стоимость заказа на изготовление деталей уменьшится и ваш заказ будет выполнен в кратчайшие сроки.
+              </p>
+            </div>
+            <div class="block">
+              <h3 class="block__title">Виды фрезерной обработки:</h3>
+              <ul class="block_list">
+                <li class="block__item">Фрезерование горизонтальных поверхностей;</li>
+                <li class="block__item">Фрезерование вертикальных поверхностей;</li>
+                <li class="block__item">Фрезерование наклонных поверхностей;</li>
+                <li class="block__item">Фрезерование пазов и канавок;</li>
+                <li class="block_item">Фрезерование фасонных поверхностей.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="equipment">
+            <h2 class="section-title equipment-title">
+              Станочный парк для фрезерной обработки
+            </h2>
+            <ul class="equipment__list list-reset">
+              <div class="equipment__item">
+                <div class="wrapper__img">
+                  <a href="img/equipment-1.webp" class="img-max" data-fancybox="equipment1">
+                    <img src="img/equipment-1.webp" width="100%" height="100%" />
+                  </a>
+                  <div class="wrapper__img_mini">
+                    <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment1">
+                      <img src="img/equipment-1.webp" width="100%" height="100%" />
+                    </a>
+                    <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment1">
+                      <img src="img/equipment-1.webp" width="100%" height="100%" />
+                    </a>
+                    <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment1">
+                      <img src="img/equipment-1.webp" width="100%" height="100%" />
+                    </a>
+                  </div>
+                </div>
+                <div class="equipment__content">
+                  <h3 class="equipment__title">
+                    Центр вертикально-фрезерный обрабатывающий WELE AA 1680
+                  </h3>
+                  <ul class="equipment__text list-reset">
+                    Технические характеристики:
+                    <li>
+                      Максимальная частота вращения фрезерного шпинделя 6 000 об/мин.
+                    </li>
+                    <li>
+                      Мощность фрезерного шпинделя 26 кВт.
+                    </li>
+                    <li>
+                      Размеры рабочей поверхности стола 1750×800 мм.
+                    </li>
+                    <li>
+                      Грузоподъёмность стола 2000 кг.
+                    </li>
+                    <li>
+                      Расстояние от торца шпинделя до поверхности стола 200-1000 мм.
+                    </li>
+                    <li>
+                      Тип хвостовика инструмента BT50.
+                    </li>
+                    <li>
+                      Давление СОЖ через шпиндель 20 бар.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="equipment__item">
+                <div class="wrapper__img">
+                  <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment2">
+                    <img src="img/equipment-1.webp" width="100%" height="100%" />
+                  </a>
+                  <div class="wrapper__img_mini">
+                    <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment2">
+                      <img src="img/equipment-1.webp" width="100%" height="100%" />
+                    </a>
+                    <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment2">
+                      <img src="img/equipment-1.webp" width="100%" height="100%" />
+                    </a>
+                    <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment2">
+                      <img src="img/equipment-1.webp" width="100%" height="100%" />
+                    </a>
+                  </div>
+                </div>
+                <div class="equipment__content">
+                  <h3 class="equipment__title">
+                    Центр вертикально-фрезерный обрабатывающий WELE AA 2090
+                  </h3>
+                  <ul class="equipment__text list-reset">
+                    Технические характеристики:
+                    <li>
+                      Максимальная частота вращения фрезерного шпинделя 6 000 об/мин.
+                    </li>
+                    <li>
+                      Мощность фрезерного шпинделя 26 кВт.
+                    </li>
+                    <li>
+                      Размеры рабочей поверхности стола 2000×900 мм.
+                    </li>
+                    <li>
+                      Грузоподъёмность стола 2200 кг.
+                    </li>
+                    <li>
+                      Расстояние от торца шпинделя до поверхности стола 200-1100 мм.
+                    </li>
+                    <li>
+                      Тип хвостовика инструмента BT50.
+                    </li>
+                    <li>
+                      Давление СОЖ через шпиндель 20 бар.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="equipment__item">
+                <div class="wrapper__img">
+                  <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment3">
+                    <img src="img/equipment-1.webp" width="100%" height="100%" />
+                  </a>
+                  <div class="wrapper__img_mini">
+                    <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment3">
+                      <img src="img/equipment-1.webp" width="100%" height="100%" />
+                    </a>
+                    <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment3">
+                      <img src="img/equipment-1.webp" width="100%" height="100%" />
+                    </a>
+                    <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment3">
+                      <img src="img/equipment-1.webp" width="100%" height="100%" />
+                    </a>
+                  </div>
+                </div>
+                <div class="equipment__content">
+                  <h3 class="equipment__title">
+                    Обрабатывающий центр Matsuura H.Plus-630сер. № 19513
+                  </h3>
+                  <ul class="equipment__text list-reset">
+                    Технические характеристики:
+                    <li>
+                      Размер поддона 630×630 мм
+                    </li>
+                    <li>
+                      Вес заготовки макс. 1200 кг
+                    </li>
+                    <li>
+                      Число оборотов шпинделя 45 — 12000 U/min
+                    </li>
+                    <li>
+                      Ось X 1050 мм Ось Y 920 мм Ось Z 870 мм
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="equipment__item">
+                <div class="wrapper__img">
+                  <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment4">
+                    <img src="img/equipment-1.webp" width="100%" height="100%" />
+                  </a>
+                  <div class="wrapper__img_mini">
+                    <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment4">
+                      <img src="img/equipment-1.webp" width="100%" height="100%" />
+                    </a>
+                    <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment4">
+                      <img src="img/equipment-1.webp" width="100%" height="100%" />
+                    </a>
+                    <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment4">
+                      <img src="img/equipment-1.webp" width="100%" height="100%" />
+                    </a>
+                  </div>
+                </div>
+                <div class="equipment__content">
+                  <h3 class="equipment__title">
+                    Горизонтально обрабатывающий центр NIIGATA HN80D-Ⅱ FC
+                  </h3>
+                  <ul class="equipment__text list-reset">
+                    Технические характеристики:
+                    <li>
+                      Наибольший диаметр заготовки 1750 мм
+                    </li>
+                    <li>
+                      Наибольшая высота заготовки 1400 мм
+                    </li>
+                    <li>
+                      Рабочая поверхность стола 800×800 мм
+                    </li>
+                    <li>
+                      Макс. нагрузка на паллету 2500 кг
+                    </li>
+                    <li>
+                      Ось X 1530 мм Ось Y 1230 мм Ось Z 1020 мм
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="equipment__item">
+                <div class="wrapper__img">
+                  <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment5">
+                    <img src="img/equipment-1.webp" width="100%" height="100%" />
+                  </a>
+                  <div class="wrapper__img_mini">
+                    <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment5">
+                      <img src="img/equipment-1.webp" width="100%" height="100%" />
+                    </a>
+                    <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment5">
+                      <img src="img/equipment-1.webp" width="100%" height="100%" />
+                    </a>
+                    <a href="img/equipment-1.webp" class="img-mini" data-fancybox="equipment5">
+                      <img src="img/equipment-1.webp" width="100%" height="100%" />
+                    </a>
+                  </div>
+                </div>
+                <div class="equipment__content">
+                  <h3 class="equipment__title">
+                    Горизонтально обрабатывающий центр ГРС 13 ЧПУ АСИ
+                  </h3>
+                  <ul class="equipment__text list-reset">
+                    Технические характеристики:
+                    <li>
+                      Максимальный вес обрабатываемой детали 12 000 кг
+                    </li>
+                    <li>
+                      Диаметр рабочего шпинделя 130 мм
+                    </li>
+                    <li>
+                      Число оборотов рабочего шпинделя: 10 — 3000 об/мин
+                    </li>
+                    <li>
+                      Номинальная мощность главного двигателя 37/46 кВт
+                    </li>
+                    <li>
+                      Номинальный крутящий момент при постоянной нагрузке 2 502/3 111 Нм
+                    </li>
+                    <li>
+                      Ось X Поперечная перестановка стола 3 500 мм
+                    </li>
+                    <li>
+                      Ось Y Вертикальное перемещение шпиндельной головки 2 500 мм
+                    </li>
+                    <li>
+                      Ось Z Продольная перестановка стола 3 200 мм
+                    </li>
+                    <li>
+                      Ось W Выдвижение рабочего шпинделя 800 мм
+                    </li>
+                    <li>
+                      Ось B Поворотный стол 1800×2200 мм
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+  <ul class="container">
+    <div class="footer-navigation">
+      <a href="index.html" class="logo">
+        <img loading="lazy" src="img/svg/logo.svg" class="image" width="240" height="60" alt="СпецпромКонструкция">
+      </a>
+      <nav class="nav" title="Главное меню">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="company.html" class="nav__link">О Компании</a></li>
+          <li class="nav__item"><a href="services-page.html" class="nav__link">Услуги</a></li>
+          <li class="nav__item"><a href="products-page.html" class="nav__link">Продукция</a></li>
+          <li class="nav__item"><a href="lrk-page.html" class="nav__link">Лаборатории</a></li>
+          <!-- <li class="nav__item"><a href="vacancies.html" class="nav__link">Вакансии</a></li> -->
+          <li class="nav__item"><a href="contacts.html" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+    <ul class="footer-contacts">
+      <li class="footer-contacts__item">
+        <img loading="lazy" src="img/svg/footer-phone.svg" class="footer-contacts__icon" alt="СпецпромКонструкция">
+        <a href="tel:+73439663098" class="footer-contacts__phone">+7 (343-96) 6-30-98</a>
+      </li>
+      <li class="footer-contacts__item"><div class="footer-contacts__separator"></div></li>
+      <li class="footer-contacts__item">
+        <img loading="lazy" src="img/svg/footer-email.svg" class="footer-contacts__icon" alt="СпецпромКонструкция">
+        <a href="mailto:info@spczavod.ru" class="footer-contacts__email">info@spczavod.ru</a>
+      </li>
+      <li class="footer-contacts__item"><div class="footer-contacts__separator"></div></li>
+      <li class="footer-contacts__item">
+        <img loading="lazy" src="img/svg/footer-adress.svg" class="footer-contacts__icon" alt="СпецпромКонструкция">
+        <p class="footer-contacts__adress">Свердловская область г. Первоуральск ул. Торговая 1</p>
+      </li>
+      <li class="footer-contacts__item"><div class="footer-contacts__separator"></div></li>
+      <li class="footer-contacts__item">
+        <button class="footer-contacts__btn btn-accent btn">Заказать звонок</button>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
